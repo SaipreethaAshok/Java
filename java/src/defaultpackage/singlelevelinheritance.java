@@ -1,11 +1,11 @@
 package defaultpackage;
-class Animal{
+class mammal{
 	void Animals()
 	{
 		System.out.println("It belongs to animal");
 	}
 }
-class pet extends Animal{
+class pet extends mammal{
 	void PetAnimals(String x)
 	{
 		System.out.println(x+" is a pet");
